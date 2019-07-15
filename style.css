@@ -1,0 +1,63 @@
+table{
+    width:100%;
+    height: 50px;
+}
+td#layoutleft {
+    width: 30%;
+    height: 250px;
+text-align: center;
+}
+td#layoutright{
+    width: 70%;
+    height: 600px;
+}
+td.mahan{
+    width: 15%;
+    text-align: center;
+    background-color: bisque;
+    cursor: pointer;
+}
+td.mahan:hover{
+    background-color: rosybrown; 
+}
+tr,td#center{
+    width: 40%;
+    background-color: bisque;
+}
+#menu tr td a{
+    text-decoration: none!important;
+}
+div.banner, footer{
+    height: 200px;
+    background-color: rgb(255, 217, 170)
+}
+table#layout tr td img{
+    width: 200px;
+    height: 200px;
+}
+.taniya{
+border: 2px solid burlywood;
+text-align: center;
+width: 25px;
+background: aliceblue;
+}
+.content{
+    padding: 20px;
+    width: 33%;
+}
+footer{
+    padding :20px;
+}
+tr:nth-child(even){
+    background-color: rgb(255, 217, 170);
+}
+table#chart{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+}
+.centercontent{
+    vertical-align: top;
+    padding: 20px;
+    width: 33%;
+}
